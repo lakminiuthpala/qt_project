@@ -1,0 +1,418 @@
+body {
+    font-family: 'Poppins' !important;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+p{
+     font-size: 30px;
+}
+
+.h1, h1 {
+    font-size: 110px !important;
+    font-weight: 900 !important;
+    color: #0f315b !important;
+    margin-bottom: 70px !important;
+}
+
+.h2, h2 {
+    font-size: 90px !important;
+    font-weight: 700 !important;
+    color: #0f315b !important;
+}
+
+
+.h3, h3 {
+    font-size: 50px !important;
+    font-weight: bold !important;
+      
+}
+
+
+div#watercooler_status h3{
+    padding-top: 30px;
+    color: #0f315b !important;
+}
+
+div#checkin_status h3{
+    padding-top: 30px;
+    color: #0f315b !important;
+}
+
+.dot {
+  height: 1250px;
+  width: 1250px;
+  background-color: #ffa2a2;
+  border-radius: 100%;
+  float: right;
+}
+
+.container-fluid {
+    padding-right: 0px !important; 
+   padding-left: 0px !important; 
+}
+/*Start Login*/
+
+.form{
+    margin-top: 50px;
+}
+
+.form p {
+    color: #0f315b !important;
+}
+.footer p {
+    color: #0f315b !important;
+}
+
+.row.footer {
+    margin-top: 44px;
+}
+
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 25px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px #bfc7bf;
+   font-size: 30px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+span.psw {
+  padding-top: 16px;
+    float: left;
+}
+.login {
+    margin-top: 40px;
+    position: absolute;
+    line-height: 30px;
+}
+
+.psw p, .psw a {
+    color: #000;
+    text-decoration: none;
+}
+
+.login button {
+  background-color: #ffde59;
+  width: 90%;
+  margin: 41px 0px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 30px;
+  padding: 25px 20px;
+}
+
+.question {
+    color: #000;
+    margin-top: 25px;
+}
+
+.com_img img {
+    border-radius: 40px;
+    padding: 40px 0px;
+}
+
+.form_tab .tablink {
+    font-size: 48px;
+    /* border-bottom: 1px solid #000; */
+}
+
+.form_tab .tablink:active {
+    border-bottom: 10px solid #1f54c3 !important;
+}
+
+.form_tab button {
+    background-color: #fff;
+}
+
+.form_tab {
+    margin-top: 50px;
+}
+
+/*End Loing*/
+/*Start profile*/
+
+.col-md-12.col-sm-12.nopadding {
+    padding: 0px;
+    margin-top: -85px;
+    z-index: -9;
+}
+
+.col-md-12.col-sm-12.profile_details {
+    background: #f1f0f2;
+    border-radius: 60px;
+    margin-top: -300px;
+    padding: 40px;
+}
+
+.name {
+    font-size: 75px;
+    font-weight: 800;
+    color: #241332;
+}
+
+
+.location, .b_day {
+    color: #998fa2;
+    font-size: 35px;
+}
+
+.location i, .b_day i {
+    padding: 15px;
+}
+
+.row.note_icon {
+    padding: 50px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 60px;
+    margin-top: 45px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+ border-radius: 35px;
+ padding: 25px;
+ font-size: 20px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #78849e;
+
+}
+
+
+#box1 .tab button, #box2 .tab button, #box3 .tab button, #box4 .tab button{
+    margin-top: 40px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #353a50;
+  color: #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #353a50;
+    color: #fff !important;
+    border-radius: 40px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tab2content{
+    display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.fa{
+    font-size: 45px;
+}
+
+.box1, .box2, .box3, .box4 {
+    margin-top: 40px;
+    align-items: center;
+}
+
+.box1 button.tablinks, .box2 button.tablinks, .box3 button.tablinks, .box4 button.tablinks {
+    color: #0f315b;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.box1 button.tablinks:active, .box2 button.tablinks:active, .box3 button.tablinks:active, .box4 button.tablinks:active{
+    color: #fff !important;
+}
+
+
+
+.textbox_check li {
+    font-size: 20px;
+}
+
+.department {
+    font-size: 20px;
+    padding: 9px 9px 0px 0px;
+    text-align: center;
+    border-radius: 45px;
+    background: #f8e21c;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.textbox_check {
+    margin-top: 180px;
+    background-color: #454f63;
+    padding: 21px;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.textbox_check .profile_pic img, .comments_box .profile_pic img {
+    border-radius: 50%;
+}
+
+div#Check-in, div#Watercooler {
+    margin-top: 100px;
+}
+
+.pub_date {
+    font-size: 18px;
+    color: #adb2ba;
+}
+
+.comments_wc {
+    margin-top: 20px;
+    color: #626262;
+}
+
+.comments_box {
+    margin-top: 80px;
+    background-color: #f4f4f4;
+    padding: 32px;
+    /*color: #fff;*/
+    border-radius: 40px;
+}
+/*End Profile*/
+
+
+/* start status */
+
+.status {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons inside the tab */
+  
+  
+  /* Change background color of buttons on hover */
+  /* .status button:hover {
+    background-color: #ddd;
+  } */
+  
+  /* Create an active/current tablink class */
+  .status button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontentstatus {
+    display: none;
+    padding: 6px 12px;
+    
+  }
+
+  .progress-bar {
+    background-color: #fafa78 !important;
+  }
+
+  .chat_status
+  {
+  padding: 40px;
+  border-radius: 40px;
+  margin-top: 60px;
+  box-shadow: 5px 2px #88888887;
+}
+
+.chat_status li {
+    font-size: 31px;
+    line-height: 69px;
+    list-style:square;
+    
+}
+
+.chat_status li::before{
+    color:#fafa78;
+}
+
+
+.status_wc{
+    font-size: 42px;
+}
+  /* End status */
+
+  /* Menu */
+.navbar-toggle {
+    display: block !important;
+    border:none;
+}
+
+.navbar-default {
+    background-color: #f8f8f800 !important;
+    border-color: #e7e7e700 !important;
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-header {
+    float: right !important;
+}
+
+.navbar-toggle .icon-bar {
+    width: 40px !important;
+    height: 6px !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+    /* border: none; */
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd0 !important;
+}
+
+div#watercooler-notifications {
+    font-size: 38px;
+    line-height: 53px;
+}
+/* Menu end */
